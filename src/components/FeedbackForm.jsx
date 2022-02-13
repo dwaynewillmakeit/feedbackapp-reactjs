@@ -33,9 +33,9 @@ const FeedbackForm = ({ handleAdd }) => {
 			};
 
 			console.log(newFeedback);
-			// handleAdd(newFeedback);
+			handleAdd(newFeedback);
 
-			// setText("");
+			setText("");
 		}
 	};
 
